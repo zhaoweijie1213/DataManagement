@@ -1,3 +1,4 @@
+using DataManagement.Entity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DataManagement.Web.Controllers
@@ -13,14 +14,23 @@ namespace DataManagement.Web.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly SystemDbContext _systemDbContext;
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, SystemDbContext systemDbContext)
         {
             _logger = logger;
+            _systemDbContext = systemDbContext;
         }
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+
+            using (var context= _systemDbContext)
+            {
+                var menu = context.SysMenus.Where(i => i.Pageid == 1).FirstOrDefault();
+            }
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
