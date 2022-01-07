@@ -1,5 +1,6 @@
 using DataManagement.Entity;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace DataManagement.Web.Controllers
 {
@@ -29,6 +30,7 @@ namespace DataManagement.Web.Controllers
             using (var context= _systemDbContext)
             {
                 var menu = context.SysMenus.Where(i => i.Pageid == 1).FirstOrDefault();
+                _logger.LogInformation("{menu}", JsonConvert.SerializeObject(menu));
             }
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast

@@ -14,6 +14,84 @@
     <None Include="log4net.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="wwwroot\public\.gitkeep" />
+    <None Include="wwwroot\public\img\icons\safari-pinned-tab.svg" />
+    <None Include="wwwroot\public\img\loading-bubbles.svg" />
+    <None Include="wwwroot\src\App.vue" />
+    <None Include="wwwroot\src\assets\fonts\nucleo-icons.svg" />
+    <None Include="wwwroot\src\assets\fonts\nucleo-icons.woff2" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_buttons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_cards.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_chartist.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_icons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_inputs.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_labels.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_morphing-buttons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_navbars.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_social-buttons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_tabs.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_transparency.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\mixins\_vendor-prefixes.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\plugins\_animate.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\plugins\_datetime-picker.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_alerts.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_bootstrap-switch.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_buttons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_cards.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_chartist.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_checkbox-radio-switch.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_dropdown.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_footers.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_inputs.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_misc.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_mixins.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_navbars.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_partial-nucleo-icons.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_responsive.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_sidebar-and-main-panel.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_tables.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_typography.scss" />
+    <None Include="wwwroot\src\assets\sass\lbd\_variables.scss" />
+    <None Include="wwwroot\src\assets\sass\light-bootstrap-dashboard.scss" />
+    <None Include="wwwroot\src\components\BaseDropdown.vue" />
+    <None Include="wwwroot\src\components\Cards\Card.vue" />
+    <None Include="wwwroot\src\components\Cards\ChartCard.vue" />
+    <None Include="wwwroot\src\components\Cards\StatsCard.vue" />
+    <None Include="wwwroot\src\components\index.js" />
+    <None Include="wwwroot\src\components\Inputs\BaseCheckbox.vue" />
+    <None Include="wwwroot\src\components\Inputs\BaseInput.vue" />
+    <None Include="wwwroot\src\components\Inputs\BaseRadio.vue" />
+    <None Include="wwwroot\src\components\NotificationPlugin\index.js" />
+    <None Include="wwwroot\src\components\NotificationPlugin\Notification.vue" />
+    <None Include="wwwroot\src\components\NotificationPlugin\Notifications.vue" />
+    <None Include="wwwroot\src\components\SidebarPlugin\index.js" />
+    <None Include="wwwroot\src\components\SidebarPlugin\SideBar.vue" />
+    <None Include="wwwroot\src\components\SidebarPlugin\SidebarLink.vue" />
+    <None Include="wwwroot\src\components\Table.vue" />
+    <None Include="wwwroot\src\directives\click-ouside.js" />
+    <None Include="wwwroot\src\globalComponents.js" />
+    <None Include="wwwroot\src\globalDirectives.js" />
+    <None Include="wwwroot\src\layout\Content.vue" />
+    <None Include="wwwroot\src\layout\ContentFooter.vue" />
+    <None Include="wwwroot\src\layout\DashboardLayout.vue" />
+    <None Include="wwwroot\src\layout\MobileMenu.vue" />
+    <None Include="wwwroot\src\layout\TopNavbar.vue" />
+    <None Include="wwwroot\src\light-bootstrap-main.js" />
+    <None Include="wwwroot\src\main.js" />
+    <None Include="wwwroot\src\pages\Icons.vue" />
+    <None Include="wwwroot\src\pages\Maps.vue" />
+    <None Include="wwwroot\src\pages\Maps\API_KEY.js" />
+    <None Include="wwwroot\src\pages\NotFoundPage.vue" />
+    <None Include="wwwroot\src\pages\Notifications.vue" />
+    <None Include="wwwroot\src\pages\Overview.vue" />
+    <None Include="wwwroot\src\pages\TableList.vue" />
+    <None Include="wwwroot\src\pages\Typography.vue" />
+    <None Include="wwwroot\src\pages\Upgrade.vue" />
+    <None Include="wwwroot\src\pages\UserProfile.vue" />
+    <None Include="wwwroot\src\pages\UserProfile\EditProfileForm.vue" />
+    <None Include="wwwroot\src\pages\UserProfile\UserCard.vue" />
+    <None Include="wwwroot\src\registerServiceWorker.js" />
+    <None Include="wwwroot\src\routes\routes.js" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +104,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataManagement.Service\DataManagement.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\lib\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
