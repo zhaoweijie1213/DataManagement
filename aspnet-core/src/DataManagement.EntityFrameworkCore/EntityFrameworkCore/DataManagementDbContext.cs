@@ -60,6 +60,9 @@ public class DataManagementDbContext :
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+
+        AbpCommonDbProperties.DbTablePrefix = "";
+
         base.OnModelCreating(builder);
 
         /* Include modules to your migration db context */
