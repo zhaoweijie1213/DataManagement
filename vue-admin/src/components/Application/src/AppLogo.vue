@@ -27,7 +27,7 @@
     /**
      * Whether to show title
      */
-    showTitle: { type: Boolean, default: true },
+    showTitle: { type: Boolean, default: false },
     /**
      * The title is also displayed when the menu is collapsed
      */
